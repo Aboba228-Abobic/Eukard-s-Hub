@@ -1,9 +1,0 @@
-local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
-
--- Creates and displays your custom achievement
-Achievements.Get({
-    Title = "PlaceHolder",
-    Desc = "PlaceHolder",
-    Reason = "PlaseHolder",
-    Image = "https://github.com/Aboba228-Abobic/Eukard-s-Hub/BagdeIcons/PlaceHolder.png?raw=true",
-})
