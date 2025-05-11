@@ -96,7 +96,7 @@ ItemsTab:CreateButton({
 })
 
 ItemsTab:CreateButton({
-   Name = "GuidingCandle",
+   Name = "GuidingCandleButBad",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/GuidingCandle.lua"))()
    end,
