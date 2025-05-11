@@ -163,3 +163,10 @@ MainTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/TynaRan/Frightening/refs/heads/main/script.lua.txt"))()
    end,
 })
+
+MainTab:CreateButton({
+   Name = "Endless mode by dripcapybara",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/EndlessMode.lua"))()
+   end,
+})
