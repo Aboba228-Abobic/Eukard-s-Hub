@@ -88,16 +88,3 @@ ItemsTab:CreateButton({
    end,
 })
 
-ItemsTab:CreateButton({
-   Name = "Lasergun",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAcceleration/Comet-Development/refs/heads/main/Doors/Assets/Storage/Candle.lua"))()
-   end,
-})
-
-ItemsTab:CreateButton({
-   Name = "M249",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/aadyian9000/the-thing/refs/heads/main/m249Yeah.lua"))()
-   end,
-})
