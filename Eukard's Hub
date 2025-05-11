@@ -68,6 +68,41 @@ EntityTab:CreateButton({
    end,
 })
 
+EntityTab:CreateButton({
+   Name = "Claim",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/Claim.lua"))()
+   end,
+})
+
+EntityTab:CreateButton({
+   Name = "Blink",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/Blink.lua"))()
+   end,
+})
+
+EntityTab:CreateButton({
+   Name = "Matcher",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/Matcher.lua"))()
+   end,
+})
+
+EntityTab:CreateButton({
+   Name = "Overseer",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/Overseer.lua"))()
+   end,
+})
+
+EntityTab:CreateButton({
+   Name = "Rebound",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/Rebound.lua"))()
+   end,
+})
+
 -------------------------------
 -- Items Tab
 -------------------------------
