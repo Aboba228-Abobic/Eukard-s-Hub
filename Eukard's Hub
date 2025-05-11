@@ -94,3 +94,11 @@ ItemsTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/Glitch%20Ambush%20Plushie.lua"))()
    end,
 })
+
+ItemsTab:CreateButton({
+   Name = "GuidingCandle",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/GuidingCandle.lua"))()
+   end,
+})
+
