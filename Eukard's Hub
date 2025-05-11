@@ -108,3 +108,23 @@ ItemsTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/CuriousCandle.lua"))()
    end,
 })
+
+-------------------------------
+-- modes Tab
+-------------------------------
+local MainTab = Window:CreateTab("modes", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("gamemodes")
+
+MainTab:CreateButton({
+   Name = "hardcore mode by dripcapybara",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/HardcoreFixed.lua"))()
+   end,
+})
+
+MainTab:CreateButton({
+   Name = "Frightening mode",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/TynaRan/Frightening/refs/heads/main/script.lua.txt"))()
+   end,
+})
