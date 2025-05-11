@@ -88,3 +88,9 @@ ItemsTab:CreateButton({
    end,
 })
 
+ItemsTab:CreateButton({
+   Name = "Glitch Ambush Plushie",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/Glitch%20Ambush%20Plushie.lua"))()
+   end,
+})
