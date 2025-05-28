@@ -144,6 +144,13 @@ ItemsTab:CreateButton({
    end,
 })
 
+ItemsTab:CreateButton({
+   Name = "CuriousCandle",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/CuriousCandle.lua"))()
+   end,
+})
+
 -------------------------------
 -- modes Tab
 -------------------------------
@@ -168,5 +175,25 @@ MainTab:CreateButton({
    Name = "Endless mode by dripcapybara",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/EndlessMode.lua"))()
+   end,
+})
+
+-------------------------------
+-- Textures Tab
+-------------------------------
+local MainTab = Window:CreateTab("Textures", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Textures")
+
+MainTab:CreateButton({
+   Name = "Doors floor 2 door",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/floor2%20door.lua"))()
+   end,
+})
+
+MainTab:CreateButton({
+   Name = "Iron door",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/Iron%20door.lua"))()
    end,
 })
