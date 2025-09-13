@@ -197,3 +197,31 @@ MainTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/Iron%20door.lua"))()
    end,
 })
+
+-------------------------------
+-- Themes Tab
+-------------------------------
+local MainTab = Window:CreateTab("Themes (perfect for combined modes)", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Textures")
+
+local Button = MainTab:CreateButton({
+   Name = "floor 2 with ambience",
+   Callback = function()
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Floor%202%20script"))()
+
+
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "rooms",
+   Callback = function()
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Script5039392/Script/main/Hotel%20rooms.lua"))()
+
+   end,
+})
+
