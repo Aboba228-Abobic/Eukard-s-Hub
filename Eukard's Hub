@@ -145,12 +145,39 @@ ItemsTab:CreateButton({
 })
 
 ItemsTab:CreateButton({
-   Name = "CuriousCandle",
+   Name = "BananaGun",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/CuriousCandle.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/BananaGunByNerd.lua"))()
    end,
 })
 
+ItemsTab:CreateButton({
+   Name = "Inf Vitamins",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/Inf_Vitamins.lua"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "HolyGrenade (explodes the hotel)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/HolyGrenadeByNerd.lua"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "Size Changer (u can use on figure)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/SizeChangerByNerd.lua"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "Ice Gun",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/IcegunByNerd.lua"))()
+   end,
+})
 -------------------------------
 -- modes Tab
 -------------------------------
@@ -224,4 +251,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Script5039392/Script/
 
    end,
 })
+
 
