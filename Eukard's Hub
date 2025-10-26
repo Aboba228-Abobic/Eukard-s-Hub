@@ -103,6 +103,19 @@ EntityTab:CreateButton({
    end,
 })
 
+EntityTab:CreateButton({
+   Name = "A-60 No kill",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/a-60aa/refs/heads/main/---%3D%3D%3D%3D%3D%3D%20a-60%20spawn%20%3D%3D%3D%3D%3D%3D---.txt"))()
+   end,
+})
+
+EntityTab:CreateButton({
+   Name = "A-60",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/a-60aa/refs/heads/main/---%3D%3D%3D%3D%3D%3D%20a-60%20agresiv%20spawner%20%3D%3D%3D%3D%3D%3D---.txt"))()
+   end,
+})
 -------------------------------
 -- Items Tab
 -------------------------------
@@ -145,37 +158,16 @@ ItemsTab:CreateButton({
 })
 
 ItemsTab:CreateButton({
-   Name = "BananaGun",
+   Name = "Epic Crucifix",
    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/BananaGunByNerd.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinManiack/Crucifix/refs/heads/main/Crucifix.lua"))()
    end,
 })
 
 ItemsTab:CreateButton({
-   Name = "Inf Vitamins",
+   Name = "MoonJug",
    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/Inf_Vitamins.lua"))()
-   end,
-})
-
-ItemsTab:CreateButton({
-   Name = "HolyGrenade (explodes the hotel)",
-   Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/HolyGrenadeByNerd.lua"))()
-   end,
-})
-
-ItemsTab:CreateButton({
-   Name = "Size Changer (u can use on figure)",
-   Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/SizeChangerByNerd.lua"))()
-   end,
-})
-
-ItemsTab:CreateButton({
-   Name = "Ice Gun",
-   Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/IcegunByNerd.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/moonjug/refs/heads/main/lol%20brotxt.txt"))()
    end,
 })
 -------------------------------
@@ -202,6 +194,13 @@ MainTab:CreateButton({
    Name = "Endless mode by dripcapybara",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/EndlessMode.lua"))()
+   end,
+})
+
+MainTab:CreateButton({
+   Name = "A-60 mode???",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/a-60aa/refs/heads/main/A-60%20mode.Pl.txt"))()
    end,
 })
 
@@ -241,15 +240,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-st
 
    end,
 })
-
-local Button = MainTab:CreateButton({
-   Name = "rooms",
-   Callback = function()
-
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Script5039392/Script/main/Hotel%20rooms.lua"))()
-
-   end,
-})
-
-
