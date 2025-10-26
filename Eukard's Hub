@@ -204,6 +204,13 @@ MainTab:CreateButton({
    end,
 })
 
+MainTab:CreateButton({
+   Name = "My mode",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/My%20mode.txt"))()
+   end,
+})
+
 -------------------------------
 -- Textures Tab
 -------------------------------
