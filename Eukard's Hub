@@ -170,6 +170,70 @@ ItemsTab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/moonjug/refs/heads/main/lol%20brotxt.txt"))()
    end,
 })
+
+ItemsTab:CreateButton({
+   Name = "SeekGun",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/refs/heads/main/seekgun.lua"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "Rocket Launcher",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/refs/heads/main/rocketLauncher.lua"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "Scanner",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/refs/heads/main/Scanner.lua"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "Shears on anything (idk if works on players)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/refs/heads/main/Buffed%20Shears%20On%20Everything.lua"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "A Whopper?",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/refs/heads/main/Normal%20Whopper.lua"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "A Glowing Whopper?",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/refs/heads/main/Glowing%20Whopper.lua"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "F3X",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/refs/heads/main/F3X.lua"))()
+   end,
+})
+
+
+ItemsTab:CreateButton({
+   Name = "Paintball Gun",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/refs/heads/main/Paintball%20Gun.lua"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "BlackHole",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/refs/heads/main/Black%20Hole.lua"))()
+   end,
+})
 -------------------------------
 -- modes Tab
 -------------------------------
