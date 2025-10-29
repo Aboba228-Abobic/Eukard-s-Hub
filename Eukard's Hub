@@ -234,6 +234,63 @@ ItemsTab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/refs/heads/main/Black%20Hole.lua"))()
    end,
 })
+
+ItemsTab:CreateButton({
+   Name = "Grass Scanner",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/grass%20tablet.lua"))()
+   end,
+})
+
+
+ItemsTab:CreateButton({
+   Name = "Glitch Scanner",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Agadigas/Doors/refs/heads/main/Glitched%20Scanner%20by%20Custom%20Doors"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "Resize stick",
+   Callback = function()
+    loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/f0178af2301ca90c09895f10f3e7bd4b/raw/46899ccc3626f3485d85f990012f7ef37ae52e5e/resizerDoorsRemake'))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "Gravity Gun",
+   Callback = function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Skibiditoiletscripts/e/refs/heads/main/gravity%20gun'),true))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "Grenade on anything",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Modes/refs/heads/main/Grenade%20On%20Anything"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "Pink scanner",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/the%20tablet.luau"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "M249",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hi822010/Extras-Gliese-Hub-Doors/refs/heads/main/M249"))()
+   end,
+})
+
+ItemsTab:CreateButton({
+   Name = "Guiding candleV3",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAcceleration/Comet-Development/refs/heads/main/Doors/Assets/Storage/Candle.lua"))()
+   end,
+})
 -------------------------------
 -- modes Tab
 -------------------------------
