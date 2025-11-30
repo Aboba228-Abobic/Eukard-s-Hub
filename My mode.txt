@@ -1,75 +1,136 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("LES GO",true)
-wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("lol",true)
-wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("idk what to put here",true)
-
--- Scanner
-loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/main/Scanner.lua"))()
-
--- Mode Intro 
-local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
-local intro = shut:Clone()
-intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
-intro.Name = "EukardMode Intro"
-intro.Visible = true
-intro.Text = "Fart"
-intro.TextTransparency = 0
-local underline = UDim2.new(1.1, 0, 0.015, 6)
-game.TweenService:Create(intro.Underline, TweenInfo.new(3), {Size = underline}):Play()
-wait(7)
-game.TweenService:Create(intro.Underline, TweenInfo.new(1.3), {Size = UDim2.new(0.95, 0, 0.015, 6)}):Play()
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("loaded eukard's mode",true)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 wait(1)
-game.TweenService:Create(intro.Underline, TweenInfo.new(2), {ImageTransparency = 1}):Play()
-game.TweenService:Create(intro, TweenInfo.new(2), {TextTransparency = 1}):Play()
-game.TweenService:Create(intro.Underline, TweenInfo.new(7), {Size = UDim2.new(0, 0, 0.015, 6)}):Play()
-wait(2.3)
-intro.Visible = false
-wait(4)
-intro:Destroy()
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("this mode will have more entities than u think",true)
+wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("👍",true)
 
--- A-185
+-- Nightmare Rush
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Voor-Pr00/Rush-mod/refs/heads/main/Script"))()
+
+-- Candle
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAcceleration/Comet-Development/refs/heads/main/Doors/Assets/Storage/Candle.lua"))()
+
+-- Floor 2 theme
+loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Floor%202%20script"))()
+
+-- NerfedEyes
 coroutine.wrap(function()
     while true do
-        wait(250)
+        wait(math.random(80,520))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/aTy1kLpd"))()
+        wait(2)  -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Voor-Pr00/Eye/refs/heads/main/Eyefakes"))()
     end
 end)()
 
- 
+-- Smiler
+coroutine.wrap(function()
+    while true do
+        wait(math.random(80,520))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(2)  -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Voor-Pr00/spawnnn/refs/heads/main/SMILER_Obfuscate"))()
+    end
 end)()
 
 -- G-95
 coroutine.wrap(function()
     while true do
-        wait(178)
-         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/Script/refs/heads/main/G-95.txt"))()
- 
-end
- 
-end)()
-
--- Hungered
-coroutine.wrap(function()
-    while true do
-        wait(80)
+        wait(math.random(80,520))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/bre29be3/Doors-Modes/refs/heads/main/Hungered"))()
-
-end
-
+        wait(2)  -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/Script/refs/heads/main/G-95.txt"))()
+    end
 end)()
 
 -- Dimensional Eye
 coroutine.wrap(function()
     while true do
-        wait(130)
+        wait(math.random(80,520))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(1)  -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PABMAXICHAC/doors-monsters-scripts/refs/heads/main/dimeyefix"))()
+    end
+end)()
+
+-- Twister
+coroutine.wrap(function()
+    while true do
+        wait(math.random(80,520))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(1)  -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://pastefy.app/Fv3m31f9/raw"))()
+
+    end
+end)()
+
+-- Threat
+coroutine.wrap(function()
+    while true do
+        wait(math.random(80,520))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(2)  -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://pastefy.app/XE6WcVRT/raw"))()
+    end
+end)()
+
+-- Silence
+coroutine.wrap(function()
+    while true do
+        wait(math.random(80,520))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(1)  -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Voor-Pr00/Silence/refs/heads/main/Silencee"))()
+    end
+end)()
+
+-- Obsession
+coroutine.wrap(function()
+    while true do
+        wait(math.random(80,520))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(1)  -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://pastefy.app/7JHxb6Oz/raw"))()
+    end
+end)()
+
+-- Trauma
+coroutine.wrap(function()
+    while true do
+        wait(100)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/PABMAXICHAC/doors-monsters-scripts/refs/heads/main/dimeyefix'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Craziest%20Speedster%20(trauma)'))()
+    end
+end)()
 
-end
+-- Vhs!Sans
+coroutine.wrap(function()
+    while true do
+        wait(200)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Vhs!Sans%20Spawn'))()
+    end
+end)()
 
-end)()               
+-- 200
+coroutine.wrap(function()
+    while true do
+        wait(200)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet('https://pastefy.app/1xxpTxo3/raw'))()
+    end
+end)()
+
+-- LightShaker
+coroutine.wrap(function()
+    while true do
+        wait(math.random(80,520))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)  -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kotyara19k-Doorsspawner/Forbidden/refs/heads/main/LightShaker.lua"))()
+    end
+end)()
