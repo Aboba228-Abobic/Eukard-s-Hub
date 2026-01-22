@@ -116,6 +116,14 @@ EntityTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/a-60aa/refs/heads/main/---%3D%3D%3D%3D%3D%3D%20a-60%20agresiv%20spawner%20%3D%3D%3D%3D%3D%3D---.txt"))()
    end,
 })
+
+EntityTab:CreateButton({
+   Name = "Deezer (credits to Anctarus7105)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Deezer%20Spawn"))()
+   end,
+})
+
 -------------------------------
 -- Items Tab
 -------------------------------
@@ -291,6 +299,7 @@ ItemsTab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAcceleration/Comet-Development/refs/heads/main/Doors/Assets/Storage/Candle.lua"))()
    end,
 })
+
 -------------------------------
 -- modes Tab
 -------------------------------
@@ -331,7 +340,6 @@ MainTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/My%20mode.txt"))()
    end,
 })
-
 -------------------------------
 -- Textures Tab
 -------------------------------
