@@ -43,14 +43,14 @@ local EntitySection = EntityTab:CreateSection("more coming soon")
 EntityTab:CreateButton({
    Name = "Depth",
    Callback = function()
-      loadstring(game:HttpGet('https://pastefy.app/JztYAL4m/raw'))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/DepthCrazyMode"))()
    end,
 })
 
 EntityTab:CreateButton({
    Name = "A-200",
    Callback = function()
-      loadstring(game:HttpGet('https://pastefy.app/1xxpTxo3/raw'))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/A-200"))()
    end,
 })
 
@@ -124,6 +124,19 @@ EntityTab:CreateButton({
    end,
 })
 
+EntityTab:CreateButton({
+   Name = "Him (hotel +)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/HimHotel%2B"))()
+   end,
+})
+
+EntityTab:CreateButton({
+   Name = "Nerfed Eyes",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Eyes%20Impossible%20Mode"))()
+   end,
+})
 -------------------------------
 -- Items Tab
 -------------------------------
