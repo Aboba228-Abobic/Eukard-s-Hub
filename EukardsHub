@@ -160,36 +160,43 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities
 
 EntityTab:CreateButton({
    Name = "Nightmare ambush",
-   Callback = function(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Nightmare%20Ambush%20Spawn"))()
-      loadstring()
+   Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Nightmare%20Ambush%20Spawn"))()
    end,
 })
 
 
 EntityTab:CreateButton({
    Name = "Nightmare Hunger",
-   Callback = function(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Nightmare%20Hunger%20Fixed"))()
-      loadstring()
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Nightmare%20Hunger%20Fixed"))()
    end,
 })
 
 
 EntityTab:CreateButton({
    Name = "Nightmare Rush",
-   Callback = function(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Nightmare%20Rush%20Spawn"))()
-      loadstring()
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Nightmare%20Rush%20Spawn"))()
    end,
 })
 
 
 EntityTab:CreateButton({
    Name = "WH1T3",
-   Callback = function(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Wh1t3%20Spawn"))()
-      loadstring()
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Wh1t3%20Spawn"))()
    end,
 })
 
--------------------------------
+EntityTab:CreateButton({
+   Name = "Threat from fear and extreme mode",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/reboundplayz/Doors-Fixed-Modes/refs/heads/main/Threat%20Spawner"))()
+   end,
+})
+
+------------------------------- 
 -- Items Tab
 -------------------------------
 local ItemsTab = Window:CreateTab("items", nil) -- Title, Image
