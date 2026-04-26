@@ -149,14 +149,15 @@ EntityTab:CreateButton({
    Name = "Nerd (else staying else normal)",
    Callback = function()
       local chance = math.random(1, 2)
-wait(1)
-if chance == 1 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Nerd.lua"))()
-if chance == 2 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/StayingNerd.lua"))()
+      wait(1)
+
+      if chance == 1 then
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/Nerd.lua"))()
+      elseif chance == 2 then
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Anctarus7105/Entities-Spawns/refs/heads/main/StayingNerd.lua"))()
+      end
    end,
 })
-
 
 EntityTab:CreateButton({
    Name = "Nightmare ambush",
